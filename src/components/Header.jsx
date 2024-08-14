@@ -41,7 +41,11 @@ function Header() {
               </ul>
             </div>
             <a className="text-xl">
-              <img src="../../images/logo.png" alt="" />
+              <img
+                src="../../images/logo.png"
+                className="dark:invert "
+                alt=""
+              />
             </a>
           </div>
           <div className="navbar-start hidden lg:flex">
@@ -62,7 +66,7 @@ function Header() {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn bg-black px-7 text-white">Download</a>
+            <a className="btn bg-black lg:px-7 text-white">Download</a>
           </div>
         </div>
       </header>
