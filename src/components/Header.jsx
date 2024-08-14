@@ -45,7 +45,7 @@ function Header() {
             </a>
           </div>
           <div className="navbar-start hidden lg:flex">
-            <ul className="menu menu-horizontal  dark:text-white px-1 text-lg font-medium">
+            <ul className="menu menu-horizontal text-gray-900  dark:text-white px-1 text-lg font-medium">
               <li>
                 <a className="font-bold text-red-500">Home</a>
               </li>
