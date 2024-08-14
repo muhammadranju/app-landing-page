@@ -1,11 +1,11 @@
 function Hero() {
   return (
     <>
-      <section className="flex flex-col lg:flex-row  container mx-auto px-3 lg:px-0">
+      <section className="flex flex-col lg:flex-row container mx-auto px-3 lg:px-0">
         <div className="relative flex-1">
           <div className="lg:mt-32 mt-16">
             <img
-              className="absolute  z-10 -mt-10 ml-0 dark:opacity-50  md:ml-0 md:-mt-0   lg:-mt-40  lg:w-auto  lg:ml-32 px-0 "
+              className="absolute  z-10 -mt-10 ml-0 dark:opacity-70  md:ml-0 md:-mt-0   lg:-mt-40  lg:w-auto  lg:ml-32 px-0 "
               src="../../images/Group-1000002356.svg"
               alt=""
             />
@@ -17,27 +17,27 @@ function Hero() {
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
             </p>
             <div className="relative z-20 flex gap-5">
-              <button className="btn dark:bg-white px-7 bg-black text-white dark:text-black">
+              <button className="btn dark:bg-white px-7  bg-black text-white dark:text-black">
                 Get Started <i className="fa-solid fa-arrow-right-long "></i>
               </button>
-              <button className="btn bg-transparent border-slate-600 border-2 lg:px-7 dark:text-white text-black shadow-none">
+              <button className="btn bg-transparent cursor-pointer border-slate-600 border-[1px] shadow-none lg:px-7 dark:text-white text-black ">
                 <i className="fa-regular fa-circle-play text-xl"></i> Watch
                 Video
               </button>
             </div>
           </div>
 
-          <div>
+          <div className="-mt-0 lg:-mt-5">
             <img
-              className="lg:absolute z-20 w-full lg:block hidden lg:w-auto"
+              className="lg:absolute z-20 w-full lg:w-auto"
               src="../../images/Group-35921.png"
               alt=""
             />
           </div>
         </div>
 
-        <div className="lg:flex-1 lg:mt-0 mt-14">
-          <div className="relative">
+        <div className="lg:flex-1 lg:mt-0 relative z-40  lg:mb-0 mb-40">
+          <div className="">
             <img
               className="absolute z-30 lg:w-4/6  w-4/5   "
               src="../../images/iPhone-13-Pro-Front.png"
@@ -54,7 +54,7 @@ function Hero() {
               alt=""
             />
             <img
-              className="absolute z-0 md:top-80 dark:opacity-50 w-full lg:-mt-20 mt-40 rotate-180 "
+              className="absolute z-0 md:top-80  w-full lg:-mt-20 mt-40 rotate-180 "
               src="../../images/Group-1000002356.svg"
               alt=""
             />

@@ -1,10 +1,10 @@
 function Header() {
   return (
     <>
-      <header className="flex container mx-auto  items-center mt-3">
+      <header className="flex container mx-auto  items-center mt-3 px-3 lg:px-0">
         <div className="navbar bg-base-100">
           <div className=" mr-10">
-            <div className="dropdown">
+            <div className="dropdown relative z-20">
               <div
                 tabIndex={0}
                 role="button"
@@ -40,7 +40,7 @@ function Header() {
                 </li>
               </ul>
             </div>
-            <a className="text-xl">
+            <a className="text-xl cursor-pointer">
               <img
                 src="../../images/logo.png"
                 className="dark:invert "
@@ -48,7 +48,7 @@ function Header() {
               />
             </a>
           </div>
-          <div className="navbar-start hidden lg:flex">
+          <div className="navbar-start hidden lg:flex ">
             <ul className="menu menu-horizontal text-gray-900  dark:text-white px-1 text-lg font-medium">
               <li>
                 <a className="font-bold text-red-500">Home</a>
