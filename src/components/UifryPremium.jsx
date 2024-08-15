@@ -21,7 +21,7 @@ function UifryPremium() {
           src="../../images/Group-1000002356.svg"
           alt=""
         />
-        <h1 className="text-5xl relative z-20 font-bold dark:text-white text-black">
+        <h1 className="lg:text-5xl text-3xl relative z-20 font-bold dark:text-white text-black">
           uifry premium
         </h1>
         <div className="mt-5 text-lg mb-3 relative z-20">

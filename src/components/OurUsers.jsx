@@ -5,7 +5,7 @@ function OurUsers() {
         <p className="font-medium uppercase text-lg text-black dark:text-white ">
           testimonial
         </p>
-        <h1 className="text-5xl font-bold text-black dark:text-white">
+        <h1 className="lg:text-5xl text-3xl font-bold text-black dark:text-white">
           what our users say about us?
         </h1>
       </div>

@@ -3,7 +3,7 @@ function ChooseUifry() {
     <section className="container mx-auto flex flex-col lg:flex-row justify-center items-center lg:-mt-64 px-3 lg:px-0">
       <div className="flex-1">
         <span className="uppercase font-medium text-red-500">advatnages</span>
-        <h1 className="text-5xl mb-5 relative z-20 font-bold dark:text-white text-black">
+        <h1 className="lg:text-5xl text-3xl mb-5 relative z-20 font-bold dark:text-white text-black">
           why choose Uifry?
         </h1>
         <div className="flex items-center">
