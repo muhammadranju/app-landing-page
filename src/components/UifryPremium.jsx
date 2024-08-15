@@ -1,6 +1,6 @@
 function UifryPremium() {
   return (
-    <section className="container h-screen mx-auto lg:mt-72 mt- mt-[450px] flex flex-col-reverse lg:flex-row items-center px-3 lg:px-0">
+    <section className="container mx-auto lg:mt-72  mt-80 flex flex-col-reverse lg:flex-row items-center px-3 lg:px-0">
       <div className="flex-1 relative lg:mt-0 mt-5">
         <img
           className="absolute z-10 mt-10"
@@ -17,7 +17,7 @@ function UifryPremium() {
       <div className="flex-1 z-20 ">
         <span className="uppercase font-medium text-red-500">features</span>
         <img
-          className="absolute z-10 lg:-mt-3 -mt-24 ml-14 lg:ml-72  w-80 rotate-180 blur-lg	"
+          className="absolute z-10 lg:right-80 right-0 lg:-bottom-64   -mt-28 lg:w-80 rotate-180 blur-lg	"
           src="../../images/Group-1000002356.svg"
           alt=""
         />
@@ -27,7 +27,7 @@ function UifryPremium() {
         <div className="mt-5 text-lg mb-3 relative z-20">
           <i className="fa-regular fa-star text-red-500 "> </i>
           <span className="font-semibold"> budgeting intervals</span>
-          <p className="text-lgfont-medium dark:text-white text-gray-600 lg:w-4/5">
+          <p className="text-lg font-medium dark:text-white text-gray-600 lg:w-4/5">
             Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquots
             faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
           </p>
