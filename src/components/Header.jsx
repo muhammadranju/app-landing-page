@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="flex container mx-auto  items-center mt-3 px-3 lg:px-0">
+    <header className="flex container mx-auto  items-center mt-3 ">
       <div className="navbar bg-base-100">
         <div className=" mr-10">
           <div className="dropdown relative z-20">

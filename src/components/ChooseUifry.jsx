@@ -6,9 +6,9 @@ function ChooseUifry() {
         <h1 className="text-5xl mb-5 relative z-20 font-bold dark:text-white text-black">
           why choose Uifry?
         </h1>
-        <div>
+        <div className="flex items-center">
           <i className="fa-regular fa-bell bg-red-500 p-3 rounded-full text-white"></i>
-          <span className="text-2xl font-semibold ml-2">
+          <span className="text-2xl font-semibold ml-2 dark:text-white text-black">
             Clever notifications
           </span>
         </div>

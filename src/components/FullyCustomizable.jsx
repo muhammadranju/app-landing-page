@@ -3,10 +3,13 @@ function FullyCustomizable() {
     <section className="container mx-auto flex flex-col lg:flex-row-reverse justify-center items-center lg:-mt-48 px-3 lg:px-0">
       <div className="flex-1">
         <div>
-          <h1 className="text-3xl mb-5 relative z-20 font-semibold dark:text-white text-black">
+          <div className="flex items-center">
             <i className="fa-solid mr-3 fa-star-of-life bg-red-500 p-3 rounded-full text-white"></i>
-            fully customizable
-          </h1>
+
+            <span className="text-2xl font-semibold  dark:text-white text-black">
+              fully customizable
+            </span>
+          </div>
         </div>
 
         <p className="text-lg font-medium dark:text-white text-gray-600 lg:w-4/5 mt-5">
