@@ -1,6 +1,6 @@
 function UifryPremium() {
   return (
-    <section className="container mx-auto lg:mt-72  mt-80 flex flex-col-reverse lg:flex-row items-center px-3 lg:px-0">
+    <section className="container mx-auto lg:mt-72 dark:text-white text-black mt-80 flex flex-col-reverse lg:flex-row items-center px-3 lg:px-0">
       <div className="flex-1 relative lg:mt-0 mt-5">
         <img
           className="absolute z-10 mt-10"
@@ -15,9 +15,9 @@ function UifryPremium() {
       </div>
 
       <div className="flex-1 z-20 ">
-        <span className="uppercase font-medium text-red-500">features</span>
+        <span className="uppercase font-medium  text-red-500">features</span>
         <img
-          className="absolute z-10 lg:right-80 right-0 lg:-bottom-64   -mt-28 lg:w-80 rotate-180 blur-lg	"
+          className="absolute z-10 lg:ml-60 -ml-52  -mt-30 lg:w-80 rotate-180 blur-lg	"
           src="../../images/Group-1000002356.svg"
           alt=""
         />
